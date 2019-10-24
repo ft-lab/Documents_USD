@@ -115,7 +115,7 @@ PythonでOpenGL実行できるようにするため、PyOpenGLをインストー
 これで、VS2017のビルドのパスが通ったコマンドプロンプトが起動します。   
 
 以下のパスを通します。    
-Python27のパスをすでに通している場合は、1行目は不要です。    
+ 
 
     set PATH=C:\Python27;C:\Python27\Scripts;%PATH%    
     set PATH=C:\Program Files\CMake\bin;%PATH%    
