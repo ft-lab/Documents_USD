@@ -1,7 +1,6 @@
 # USDについて
 
-ここでは、PixarのUSD ( Universal Scene Description ) の覚書きです。    
-
+PixarのUSD ( Universal Scene Description ) の覚書きです。    
 USD 19.07 段階の記載です。    
 
 ## USDとは ?
