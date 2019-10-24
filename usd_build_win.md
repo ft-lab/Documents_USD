@@ -143,7 +143,7 @@ Python/CMake/NASMのそれぞれのパスは、インストールしたときの
 新しいコマンドプロンプトを起動し、以下を実行します。    
 バッチファイル化しておいたほうがいいかもしれません。    
 「C:\WinApp\USD\builds」にUSDをビルドして生成されたファイル類が格納されているとします。    
-※ これは、Pythonを使用してビルドした場合の確認です。    
+※ これは、Pythonを使用するビルドを行った場合(build_usd.pyで--no-python を指定しなかった場合)の確認です。    
 
 
     set PATH=C:\Python27;C:\Python27\Scripts;%PATH%    
