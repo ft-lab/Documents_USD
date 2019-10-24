@@ -1,4 +1,4 @@
-## USDについて
+# USDについて
 
 ここでは、PixarのUSD ( Universal Scene Description ) の覚書きです。    
 
@@ -62,16 +62,22 @@ usdviewでのビュワー表示、iOS12/iOS13でのAR、など環境によって
 
 ## ビルド情報
 
-* USDのビルド (Win)
-* NVIDIAのビルドされたライブラリを使う
+* [USDのビルド (Win)](./usd_build_win.md)    
+* USDのビルド (Mac)
+* [NVIDIAのビルドされたライブラリを使う](./usd_nvidia.md)    
 * USDのライブラリを使ったプログラムを実行 (Win)
 
 ## USDツールセット
 
 USDの付属のコマンドラインツールです。    
 
+* usdcat : usdファイルの中身を見る、usdc/usdaの相互変換
+* usdview : usdの構造と3D形状を見るビュワー
+* usdzip : usdc/usdaやテクスチャイメージをusdz形式に変換
+
 ## USD情報
 
 * [USDファイルの構成](./usd_files_desc.md)    
 * [シーン単位](./unit.md)    
 * [座標系](./scene_axis.md)    
+* [USDの内部構成(usda)](./usd_usda.md)    
