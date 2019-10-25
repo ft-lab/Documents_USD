@@ -39,4 +39,4 @@ CPUパストレーシングを行うEmbreeをusdview内で使用する場合、
 usd-win64_py27_releaseでは1つファイルが足りません。    
 別途USDをビルドし、生成された「tbb_preview.dll」を「deps\usdview-deps」内に入れるようにします。    
 
-USDのビルドについては「[USDのビルド (Win)](./usd_build_win.md)」をご参照くださいませ。    
+USDのビルドについては「[USDのビルド (Win)](../doc/usd_build_win.md)」をご参照くださいませ。    

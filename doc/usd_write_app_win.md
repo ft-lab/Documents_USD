@@ -7,7 +7,7 @@ Visual Studio 2017でC++でプログラムを行います。
 ## ビルドに必要なプロジェクト設定
 
 「C:\WinApp\USD\builds_no_python」にビルドしたUSD関連ファイルが格納されているとします。    
-USDのビルドについては「[USDのビルド (Win)](./usd_build_win.md)」をご参照くださいませ。     
+USDのビルドについては「[USDのビルド (Win)](../doc/usd_build_win.md)」をご参照くださいませ。     
 
 
 ### include検索パス
@@ -102,7 +102,7 @@ pxr/usd/pcp/types.hの
     set PATH=C:\WinApp\USD\builds_no_python\bin;%PATH%;    
     set PATH=C:\WinApp\USD\builds_no_python\lib;%PATH%;  
 
-「[USDのライブラリを使ったプログラムを実行 (Win)](./usd_run_lib_win.md)」もご参照くださいませ。    
+「[USDのライブラリを使ったプログラムを実行 (Win)](../doc/usd_run_lib_win.md)」もご参照くださいませ。    
 
 実行すると、以下の内容の「xxxx.usda」ファイルが出力されます。    
 
@@ -120,4 +120,4 @@ pxr/usd/pcp/types.hの
 ## usdviewで確認
 
 これをusdviewで見ると、以下のように表示されます。    
-<img src="images/usd_simpleSphere.jpg" />    
+<img src="../images/usd_simpleSphere.jpg" />    

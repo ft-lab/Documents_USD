@@ -64,11 +64,11 @@ usdviewでのビュワー表示、iOS12/iOS13でのAR、など環境によって
 
 ## ビルド情報
 
-* [USDのビルド (Win)](./usd_build_win.md)    
+* [USDのビルド (Win)](./doc/usd_build_win.md)    
 * USDのビルド (Mac)
-* [NVIDIAのビルドされたライブラリを使う](./usd_nvidia.md)    
-* [USDのライブラリを使ったC++プログラムを書く (Win)](./usd_write_app_win.md)    
-* [USDのライブラリを使ったプログラムを実行 (Win)](./usd_run_lib_win.md)    
+* [NVIDIAのビルドされたライブラリを使う](./doc/usd_nvidia.md)    
+* [USDのライブラリを使ったC++プログラムを書く (Win)](./doc/usd_write_app_win.md)    
+* [USDのライブラリを使ったプログラムを実行 (Win)](./doc/usd_run_lib_win.md)    
 
 ## USDツールセット
 
@@ -80,7 +80,7 @@ USDの付属のコマンドラインツールです。
 
 ## USD情報
 
-* [USDファイルの構成](./usd_files_desc.md)    
-* [シーン単位](./unit.md)    
-* [座標系](./scene_axis.md)    
-* [USDの内部構成(usda)](./usd_usda.md)    
+* [USDファイルの構成](./doc/usd_files_desc.md)    
+* [シーン単位](./doc/unit.md)    
+* [座標系](./doc/scene_axis.md)    
+* [USDの内部構成(usda)](./doc/usd_usda.md)    

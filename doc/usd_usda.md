@@ -5,7 +5,7 @@
 
 以下の直方体のMeshを配置し、テクスチャを割り当てています。    
 以下はusdviewでの表示になります。    
-<img src="images/usd_simpleCube.jpg" />    
+<img src="../images/usd_simpleCube.jpg" />    
 バイナリファイルであるusdcの場合も、構成は同じになります。    
 
 ## simpleCube.usda

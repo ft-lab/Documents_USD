@@ -172,5 +172,5 @@ Pythonのパスを通す必要があります。
 
 正しくビルドされた場合は、以下のように表示されます。    
 
-<img src="images/usd_usdview.jpg" />    
+<img src="../images/usd_usdview.jpg" />    
 
