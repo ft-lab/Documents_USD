@@ -32,7 +32,7 @@ GitHub : https://github.com/PixarAnimationStudios/USD
 * コマンドラインの「USDツールセット」 (Python必要)    
 以下、一部抜粋です。    
    * [usdcat](./doc/toolset/usd_toolset_usdcat.md) : コマンドラインでUSDファイルをバイナリ/テキスト形式で相互変換    
-   * usdview : USDファイルの3Dビュワー    
+   * [usdview](./doc/toolset/usd_toolset_usdview.md) : USDファイルの3Dビュワー    
    * [usdzip](./doc/toolset/usd_toolset_usdzip.md) : USDファイルとテクスチャリソースを1つのusdz形式に変換    
 
 デフォルトではPython経由でUSDのツール類にアクセスしたり、独自アプリに組み込めます。     
@@ -80,7 +80,7 @@ https://graphics.pixar.com/usd/docs/USD-Toolset.html
 一部を説明します。    
 
 * [usdcat : usdファイルの中身を見る、usdc/usdaの相互変換](./doc/toolset/usd_toolset_usdcat.md)
-* usdview : usdの構造と3D形状を見るビュワー
+* [usdview : usdの構造と3D形状を見るビュワー](./doc/toolset/usd_toolset_usdview.md)
 * [usdzip : usdc/usdaやテクスチャイメージをusdz形式に変換](./doc/toolset/usd_toolset_usdzip.md)
 
 ## USD情報
@@ -92,6 +92,11 @@ https://graphics.pixar.com/usd/docs/USD-Toolset.html
 * [座標系](./doc/scene_axis.md)    
 * [USDの内部構成(usda)](./doc/usd_usda.md)    
 * [usdaでのコメントの記述](./doc/usd_usda_comment.md)    
+* 使用できるジオメトリの種類
+
+### 再生環境による比較
+
+* usdview/iOS12/iOS13での比較
 
 ### C++での実装とusdaでの記述
 
