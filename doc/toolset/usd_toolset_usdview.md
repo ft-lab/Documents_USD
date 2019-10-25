@@ -31,7 +31,7 @@ usdviewが起動すると、以下のような表示になります。
 * Displacementマップは正しく反映されない ( https://github.com/PixarAnimationStudios/USD/issues/922 )。    
 * Shader:UsdUVTextureの「inputs:scale」「inputs:bias」が反映されない。    
 * UsdPreviewSurfaceのUsdUVTextureで、    
-テクスチャのRGBにRoughness/metallic/Occlusionなどパックして、G/B/A要素を取得していしても常にRが採用されてしまう。
+テクスチャのRGBにRoughness/metallic/Occlusionなどパックして、G/B/A要素を参照指定しても常にRが採用されてしまう。
 * Shader:UsdTransform2dが反映されない。
 * Materialで「Opacity < 1.0」の指定の場合は半透明になるが、全体的に正しく表示されない。
 * 光源をUSDで指定している場合、SphereLightとRectLight以外は効かない。    
@@ -73,13 +73,13 @@ Sphereなどのプリミティブを指定した場合も、これを指定す�
 ## プレビューでの光源について
 
 メインメニューの「View」-「Lights」で「Camera Light」を選択した場合は、    
-常にカメラの正面から光源が当てられます。    
+常にカメラの正面から光源が当てることになります。    
 <img src="../../images/usd_usdview_lights_01.jpg" />   
 別途「Camera Light」をOffにして、    
 Key/Fill/Backの光源を与えることで、Roughnessなどを確認しやすくなります。   
 <img src="../../images/usd_usdview_lights_02.jpg" />   
 
-USDファイル内に光源指定がある場合は、このデフォルト光源をすべてOffにしてチェックするのに使えます。    
+USDファイル内に光源指定がある場合は、このデフォルト光源をすべてOffにしてチェックするのがよさそうです。    
 
 ## Embreeでの確認
 
