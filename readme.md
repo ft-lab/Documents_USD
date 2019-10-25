@@ -45,14 +45,17 @@ GitHub : https://github.com/PixarAnimationStudios/USD
 usdviewでのビュワー表示、iOS12/iOS13でのAR、など環境によって対応されている内容が異なります。   
 
 * 3Dシーン/3DモデルをUSDファイルとして管理
+* シーンを構成するUSDファイルは、バイナリ形式のusdcと人が理解できるテキスト形式のusdaがあり、相互変換できる
 * 複数のUSDファイル、テクスチャファイル、Audioファイルを1つのファイルにパックしたUSDZ形式
 * シーン構造を持つことができる
 * Audio情報を保持できる (usdzで使用する場合は、M4A, MP3, WAV) *1
 * テクスチャイメージを保持できる (usdzで使用する場合は、png/jpeg)
 * Meshの場合、三角形でなく多角形を保持できる
+* Meshの面の表裏を表示するためのdoubleSidedオプション (Offにする、または指定しないデフォルトだと片面表示)
+* Meshの面の法線/UV指定は、頂点ごと(vertex)か面の頂点ごと(faceVarying)かを選べる
 * 1Meshに対して複数UVの保持
 * PBRマテリアルを指定
-* Subdivision(catmullClark)指定でメッシュを滑らかに再分割
+* Subdivision(catmullClark)指定でメッシュを動的に滑らかに再分割
 * 複数のUSDファイルに3Dモデルを分離し、ファイル参照する構造を作ることができる
 * Displacementマップの対応
 * 個々の形状ごとのTransform animation、ボーン+スキンを使用したSkeletal animationの対応
@@ -64,7 +67,8 @@ usdviewでのビュワー表示、iOS12/iOS13でのAR、など環境によって
 * [USDのビルド (Win)](./usd_build_win.md)    
 * USDのビルド (Mac)
 * [NVIDIAのビルドされたライブラリを使う](./usd_nvidia.md)    
-* USDのライブラリを使ったプログラムを実行 (Win)
+* [USDのライブラリを使ったC++プログラムを書く (Win)](./usd_write_app_win.md)    
+* [USDのライブラリを使ったプログラムを実行 (Win)](./usd_run_lib_win.md)    
 
 ## USDツールセット
 
