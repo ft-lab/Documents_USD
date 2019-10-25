@@ -8,6 +8,7 @@ USDのビルドについては「[USDのビルド (Win)](../doc/usd_build_win.md
 ## Pythonを使用したビルドを行った場合
 
 Pythonを使用したビルドを行った場合、実行前に以下のパス指定が必要になります。    
+コマンドラインのUSDツールセット([usdcat](../doc/toolset/usd_toolset_usdcat.md) / [usdview](../doc/toolset/usd_toolset_usdview.md) / [usdzip](../doc/toolset/usd_toolset_usdzip.md) など)の機能を実行する場合は、このビルドを使用する必要があります。    
 
     set PATH=C:\Python27;C:\Python27\Scripts;%PATH%    
     set PYTHONPATH=C:\WinApp\USD\builds\lib\python  

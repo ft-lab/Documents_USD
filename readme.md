@@ -77,7 +77,8 @@ USDの付属のコマンドラインツールです。
 以下に使用できるツールの説明があります。    
 https://graphics.pixar.com/usd/docs/USD-Toolset.html    
 
-一部を説明します。    
+なお、実行前に [Pythonを使用するパスを通しておく(Win)](./doc/usd_run_lib_win.md) 必要があります。    
+ツールの一部を説明します。    
 
 * [usdcat : usdファイルの中身を見る、usdc/usdaの相互変換](./doc/toolset/usd_toolset_usdcat.md)
 * [usdview : usdの構造と3D形状を見るビュワー](./doc/toolset/usd_toolset_usdview.md)
