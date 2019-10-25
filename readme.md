@@ -31,9 +31,9 @@ GitHub : https://github.com/PixarAnimationStudios/USD
 * USDファイルを入出力するPythonラッパーが存在
 * コマンドラインの「USDツールセット」 (Python必要)    
 以下、一部抜粋です。    
-   * usdcat : コマンドラインでUSDファイルをバイナリ/テキスト形式で相互変換    
+   * [usdcat](./doc/toolset/usd_toolset_usdcat.md) : コマンドラインでUSDファイルをバイナリ/テキスト形式で相互変換    
    * usdview : USDファイルの3Dビュワー    
-   * usdzip : USDファイルとテクスチャリソースを1つのusdz形式に変換    
+   * [usdzip](./doc/toolset/usd_toolset_usdzip.md) : USDファイルとテクスチャリソースを1つのusdz形式に変換    
 
 デフォルトではPython経由でUSDのツール類にアクセスしたり、独自アプリに組み込めます。     
 別途、C++ライブラリのみでの使用でPythonに依存しないようにもできます。   
@@ -73,10 +73,15 @@ usdviewでのビュワー表示、iOS12/iOS13でのAR、など環境によって
 ## USDツールセット
 
 USDの付属のコマンドラインツールです。    
+これはPython経由で実行されます。     
+以下に使用できるツールの説明があります。    
+https://graphics.pixar.com/usd/docs/USD-Toolset.html    
 
-* usdcat : usdファイルの中身を見る、usdc/usdaの相互変換
+一部を説明します。    
+
+* [usdcat : usdファイルの中身を見る、usdc/usdaの相互変換](./doc/toolset/usd_toolset_usdcat.md)
 * usdview : usdの構造と3D形状を見るビュワー
-* usdzip : usdc/usdaやテクスチャイメージをusdz形式に変換
+* [usdzip : usdc/usdaやテクスチャイメージをusdz形式に変換](./doc/toolset/usd_toolset_usdzip.md)
 
 ## USD情報
 
@@ -84,3 +89,4 @@ USDの付属のコマンドラインツールです。
 * [シーン単位](./doc/unit.md)    
 * [座標系](./doc/scene_axis.md)    
 * [USDの内部構成(usda)](./doc/usd_usda.md)    
+* [usdaでのコメントの記述](./doc/usd_usda_comment.md)    
