@@ -45,20 +45,28 @@ Metallicの確認には向きません。
 
 * Wireframe    
 <img src="../../images/usd_usdview_shadingMode_01.jpg" />   
+
 * WireframeOnSurface    
 <img src="../../images/usd_usdview_shadingMode_02.jpg" />   
+
 * SmoothShaded    
 <img src="../../images/usd_usdview_shadingMode_03.jpg" />   
+
 * FlatShaded    
 <img src="../../images/usd_usdview_shadingMode_04.jpg" />   
+
 * Points    
 <img src="../../images/usd_usdview_shadingMode_05.jpg" />   
+
 * Geom Only    
 <img src="../../images/usd_usdview_shadingMode_06.jpg" />   
+
 * Geom Smooth    
 <img src="../../images/usd_usdview_shadingMode_07.jpg" />   
+
 * Geom Flat    
 <img src="../../images/usd_usdview_shadingMode_08.jpg" />   
+
 * Hidden Surface Wireframe    
 <img src="../../images/usd_usdview_shadingMode_09.jpg" />   
 
@@ -80,6 +88,13 @@ Key/Fill/Backの光源を与えることで、Roughnessなどを確認しやす�
 <img src="../../images/usd_usdview_lights_02.jpg" />   
 
 USDファイル内に光源指定がある場合は、このデフォルト光源をすべてOffにしてチェックするのがよさそうです。    
+
+## 頂点数や面数をチェック
+
+メインメニューの「View」-「Head-Up Display」-「SubTree Info(Slow)」を選択してOnにすると、    
+ビューの左上に選択された要素(Prim)の合計要素数や頂点数、面数が表示されます。    
+
+<img src="../../images/usd_usdview_04.jpg" />   
 
 ## Embreeでの確認
 
