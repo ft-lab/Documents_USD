@@ -24,7 +24,9 @@ usdviewが起動すると、以下のような表示になります。
 
 ## ビュワーで未対応の機能
 
-ビュワーで未対応の機能があります (USD 19.07段階)。    
+ビュワーで未対応の機能があります 。    
+
+### USD 19.07
 
 * 頂点法線が正しく反映されない
 * 法線マップは反映されない ( https://github.com/PixarAnimationStudios/USD/issues/701 )。    
@@ -38,6 +40,9 @@ usdviewが起動すると、以下のような表示になります。
 
 また、PBRマテリアルとしてMetallicを指定しても背景画像をIBL的に指定できるUIがないため、    
 Metallicの確認には向きません。    
+
+USD 19.11のusdviewでは、DomeLightをシーンに入れることでHDRIによるIBLが効きます。   
+これでMetallicの確認ができますが、iorで映り込みも調整するようで(iorを0.0に近づけるほどMetallic効果がかかる)、Metallicのパラメータは見ていない ?
 
 ## Shading Modeの切り替え
 
@@ -84,8 +89,9 @@ Sphereなどのプリミティブを指定した場合も、これを指定す�
 常にカメラの正面から光源が当てることになります。    
 <img src="../../images/usd_usdview_lights_01.jpg" />   
 別途「Camera Light」をOffにして、    
-Key/Fill/Backの光源を与えることで、Roughnessなどを確認しやすくなります。   
+Key/Fill/Backの光源を与えることで、Roughnessなどを確認しやすくなります(USD 19.07)。   
 <img src="../../images/usd_usdview_lights_02.jpg" />   
+USD 19.11のusdviewでは、Key/Fill/Backの選択はなく、代わりに「Dome Light」があります。    
 
 USDファイル内に光源指定がある場合は、このデフォルト光源をすべてOffにしてチェックするのがよさそうです。    
 
