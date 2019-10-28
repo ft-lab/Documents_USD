@@ -93,7 +93,8 @@ https://graphics.pixar.com/usd/docs/USD-Toolset.html
 * [座標系](./doc/scene_axis.md)    
 * [USDの内部構成(usda)](./doc/usd_usda.md)    
 * [usdaでのコメントの記述](./doc/usd_usda_comment.md)    
-* 使用できるジオメトリの種類
+* [使用できるジオメトリの種類](./doc/usd_geom.md)    
+* [ノード(Prim)の種類](./doc/usd_prim_type.md)    
 
 ### 再生環境による比較
 
