@@ -102,6 +102,6 @@ https://graphics.pixar.com/usd/docs/USD-Toolset.html
 
 ### C++での実装とusdaでの記述
 
-* MeshやXformの移動/回転/スケールを指定
-* Meshを作成
-* Materialを作成
+* [MeshやXformの移動/回転/スケールを指定](./doc/usd_prim_transform.md)
+* [Meshを作成](./doc/usd_create_mesh.md)
+* [Materialを作成](./doc/usd_create_material.md)
