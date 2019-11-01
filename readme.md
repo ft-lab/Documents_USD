@@ -98,7 +98,7 @@ https://graphics.pixar.com/usd/docs/USD-Toolset.html
 
 ### 再生環境による比較
 
-* usdview/iOS12/iOS13での比較
+* [usdview/iOS12/iOS13での比較](./doc/usd_compare_viewer.md)
 
 ### C++での実装とusdaでの記述
 
@@ -110,4 +110,6 @@ https://graphics.pixar.com/usd/docs/USD-Toolset.html
 * アニメーション情報を出力
 * Subdivision対応
 * Displacement対応
+* テクスチャUVを移動/回転/スケールする (UsdTransform2d)
+* テクスチャのピクセル色の変換 (Shader : UsdUVTextureのbias/scale)
 * USDファイルを分離して管理
