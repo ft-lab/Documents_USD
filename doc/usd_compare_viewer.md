@@ -1,6 +1,6 @@
 # usdview/iOS12/iOS13での比較
 
-USD付属の「usdview」、iOS12/iOS13でのAR Quick Lookで、usd(z)の表示可能なものと不可能なものを一覧します。    
+USD付属の「usdview」、iOS12/iOS13でのAR Quick Lookで、usd(z)の表示できる機能とできない機能を一覧します。    
 
 なお、usdviewは USD 19.07付属のものをWindows 10環境で試しました。    
 iOS 12.4.1、iOS 13.2で試しました。    

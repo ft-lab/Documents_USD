@@ -42,7 +42,7 @@ GitHub : https://github.com/PixarAnimationStudios/USD
 ## USDの特徴
 
 これはUSDフォーマットとしての仕様になります。    
-usdviewでのビュワー表示、iOS12/iOS13でのAR、など環境によって対応されている内容が異なります。   
+usdviewでのビュワー表示、iOS12/iOS13でのAR、など[環境によって対応されている内容が異なり](./doc/usd_compare_viewer.md)ます。   
 
 * 3Dシーン/3DモデルをUSDファイルとして管理
 * シーンを構成するUSDファイルは、バイナリ形式のusdcと人が理解できるテキスト形式のusdaがあり、相互変換できる
@@ -100,16 +100,18 @@ https://graphics.pixar.com/usd/docs/USD-Toolset.html
 
 * [usdview/iOS12/iOS13での比較](./doc/usd_compare_viewer.md)
 
-### C++での実装とusdaでの記述
+### C++での実装/usdaでの記述など
 
 * [MeshやXformの移動/回転/スケールを指定](./doc/usd_prim_transform.md)
 * [Meshを作成](./doc/usd_create_mesh.md)
 * [Materialを作成](./doc/usd_create_material.md)
 * テクスチャの繰り返し(wrap)
 * すでに存在するパスからUsdPrimを探す
-* アニメーション情報を出力
+* ノード(Xform)のアニメーション (Transform animation)
+* ボーン＋スキンのアニメーション (Skeletal animation)
 * Subdivision対応
 * Displacement対応
 * テクスチャUVを移動/回転/スケールする (UsdTransform2d)
 * テクスチャのピクセル色の変換 (Shader : UsdUVTextureのbias/scale)
 * USDファイルを分離して管理
+* 複数のusdファイルとリソースを、usdzファイルに変換
