@@ -105,6 +105,7 @@ https://graphics.pixar.com/usd/docs/USD-Toolset.html
 * [MeshやXformの移動/回転/スケールを指定](./doc/usd_prim_transform.md)
 * [Meshを作成](./doc/usd_create_mesh.md)
 * [Materialを作成](./doc/usd_create_material.md)
+* MaterialのMetallic workflow/Specular workflow
 * テクスチャの繰り返し(wrap)
 * すでに存在するパスからUsdPrimを探す
 * ノード(Xform)のアニメーション (Transform animation)
