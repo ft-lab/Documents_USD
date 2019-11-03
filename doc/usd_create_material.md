@@ -250,6 +250,9 @@ Materialの構成については後述します。
 
 <img src="../images/usd_material_structure.png" />    
 
+上画像では、MaterialとUsdPreviewSurface/UsdUVTexture/UsdPrimvarReader_float2は内包関係として書いていますが、    
+構造的には分離できます。    
+
 ジオメトリ(Mesh)からMaterialへの参照は「rel material:binding = </hello/material_0>」の箇所で指定しています。    
 
 Materialは複数のShaderで構成されています。    
@@ -286,5 +289,10 @@ MaterialはPBRマテリアルの指定を行います。
 |ior|float値のみ?|屈折率を指定。デフォルト1.5。|    
 
 その他、clearcoat/clearcoatRoughness/displacementなどがあります。    
+
+### UsdUVTextureのパラメータ
+
+### UsdPrimvarReader_float2のパラメータ
+
 
 まだ途中、、、     
