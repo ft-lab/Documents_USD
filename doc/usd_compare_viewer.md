@@ -1,4 +1,7 @@
-# usdview/iOS12/iOS13での比較
+# old : usdview/iOS12/iOS13での比較
+
+これは古いusdviewは USD 19.07/iOS 12/iOS 13時の情報になります。    
+
 
 USD付属の「usdview」、iOS12/iOS13でのAR Quick Lookで、usd(z)の表示できる機能とできない機能を一覧します。    
 

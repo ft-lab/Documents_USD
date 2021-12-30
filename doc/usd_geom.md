@@ -1,6 +1,6 @@
 # 使用できるジオメトリ
 
-参考 : https://graphics.pixar.com/usd/docs/api/usd_geom_page_front.html    
+参考 : https://graphics.pixar.com/usd/release/api/usd_geom_page_front.html    
 
 一般的なメッシュのほか、いくつかのプリミティブやNURBSに対応しています。    
 
@@ -22,7 +22,7 @@
 曲線は分割を使用するため、メインメメニューの「View」-「Complexity」をLowからHighやVery Highなどに変更する必要があります。    
 <img src="../images/usd_geom_type.jpg" />
 
-## iOS12/iOS13/iPadOS13での対応
+## iOS12/iOS13/iPadOS13 - iOS15/iPadOS15での対応
 
 Mesh/Capsule/Cone/Cube/Cylinder/Sphereを渡せることを確認しています。    
 曲線(BasisCurves)は反映されないようです。    

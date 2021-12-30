@@ -10,7 +10,6 @@ USDに付属のビュワー「usdviewer」ではUsdPreviewSurfaceのみ反映さ
 ## Meshにマテリアルを割り当てる
 
 
-
 ### UsdPreviewSurfaceでテクスチャを指定する場合
 
 Metallic/Roughness/Occlusionなどの他のパラメータでも同じですが、

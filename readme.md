@@ -5,7 +5,7 @@ USD 21.11 段階の記載です。
 
 ## USDとは ?
 
-公式サイト : https://graphics.pixar.com/usd/docs/index.html    
+公式サイト : https://graphics.pixar.com/usd/release/index.html    
 
 USD ( Universal Scene Description )は、3Dのシーンデータを受け渡しをする際の3Dモデルやシーンのファイルフォーマットになります。    
 USDフォーマットを軸にしていますが、    
@@ -79,7 +79,7 @@ usdviewでのビュワー表示、iOS/iPadOSでのAR、など[環境によって
 USDの付属のコマンドラインツールです。    
 これはPython経由で実行されます。     
 以下に使用できるツールの説明があります。    
-https://graphics.pixar.com/usd/docs/USD-Toolset.html    
+https://graphics.pixar.com/usd/release/toolset.html    
 
 なお、実行前に [Pythonを使用するパスを通しておく(Win)](./doc/usd_run_lib_win.md) 必要があります。    
 ツールの一部を説明します。    
@@ -103,7 +103,7 @@ https://graphics.pixar.com/usd/docs/USD-Toolset.html
 
 ### 再生環境による比較
 
-* [usdview/iOS12/iOS13での比較](./doc/usd_compare_viewer.md)
+* [old : usdview/iOS12/iOS13での比較](./doc/usd_compare_viewer.md)
 
 ### C++での実装/usdaでの記述など
 
