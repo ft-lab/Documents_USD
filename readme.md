@@ -1,23 +1,23 @@
 # USDについて
 
-PixarのUSD ( Universal Scene Description ) の覚書きです。    
-USD 19.07 段階の記載です。    
+Pixar社のUSD ( Universal Scene Description ) の覚書きです。    
+USD 21.11 段階の記載です。    
 
 ## USDとは ?
 
 公式サイト : https://graphics.pixar.com/usd/docs/index.html    
 
-USD ( Universal Scene Description )は、3Dのシーンデータを受け渡しをする際のパイプラインになります。    
+USD ( Universal Scene Description )は、3Dのシーンデータを受け渡しをする際の3Dモデルやシーンのファイルフォーマットになります。    
 USDフォーマットを軸にしていますが、    
 大規模シーンを管理する際のDCCツールに依存しない中間的な環境を提供する、というほうが適切かもしれません。    
+ファイルフォーマット以外にも、USDを制御するためのコマンドラインツールやビュワー、C++/PythonからアクセスするためのAPIなど、      
+環境の基盤やパイプラインになる存在です。     
 
 ## USDが使われる個所
 
 * DCCツール間のシーンデータの受け渡しと管理
-* Mac環境、iPhoneのスマートフォンやiPadのタブレットのARの形状ファイルとしての使用
-
-ここでは、主に後者について説明することにします。    
-ARとしてのUSDの使用は、iOS12で搭載されiOS13/iPadOS13でかなり改善されています。    
+* Mac環境、iPhoneのスマートフォンやiPadのタブレットのAR(AR Quick Look)の形状ファイルとしての使用
+* NVIDIA Omniverse ( https://www.nvidia.com/ja-jp/omniverse/ )でのデータ構造
 
 ## USDのビルド環境/使える機能
 
@@ -41,8 +41,8 @@ GitHub : https://github.com/PixarAnimationStudios/USD
 
 ## USDの特徴
 
-これはUSDフォーマットとしての仕様になります。    
-usdviewでのビュワー表示、iOS12/iOS13でのAR、など[環境によって対応されている内容が異なり](./doc/usd_compare_viewer.md)ます。   
+これはUSDフォーマットとしての仕様の一部になります。    
+usdviewでのビュワー表示、iOS/iPadOSでのAR、など[環境によって対応されている内容が異なり](./doc/usd_compare_viewer.md)ます。   
 
 * 3Dシーン/3DモデルをUSDファイルとして管理
 * シーンを構成するUSDファイルは、バイナリ形式のusdcと人が理解できるテキスト形式のusdaがあり、相互変換できる
@@ -61,6 +61,10 @@ usdviewでのビュワー表示、iOS12/iOS13でのAR、など[環境によっ�
 * 個々の形状ごとのTransform animation、ボーン+スキンを使用したSkeletal animationの対応
 
 *1 : AudioについてはUSDに仕様が存在することは確認しましたが、usdviewやiOS13で再生を確認できてません。    
+
+## USDとスケーラブル
+
+* [USDとスケーラブル](./doc/usd_scalable.md)     
 
 ## ビルド情報
 
@@ -95,6 +99,7 @@ https://graphics.pixar.com/usd/docs/USD-Toolset.html
 * [usdaでのコメントの記述](./doc/usd_usda_comment.md)    
 * [使用できるジオメトリの種類](./doc/usd_geom.md)    
 * [ノード(Prim)の種類](./doc/usd_prim_type.md)    
+* [マテリアル(UsdPreviewSurface)とShader](./doc/usd_material_shader.md)
 
 ### 再生環境による比較
 

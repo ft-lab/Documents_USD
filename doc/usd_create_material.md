@@ -292,7 +292,26 @@ MaterialはPBRマテリアルの指定を行います。
 
 ### UsdUVTextureのパラメータ
 
+PBRマテリアルの各要素にテクスチャを割り当てる場合に指定します。    
+diffuseColor/emissiveColor/normalのテクスチャは、RGB要素を返します。     
+それ以外は、R/G/B/Aのいずれかをグレイスケール値として返します。    
+
+    def Shader "diffuseTexture"
+    {
+        uniform token info:id = "UsdUVTexture"
+        asset inputs:file = @tile_image.png@
+        float2 inputs:st.connect = </hello/material_0/stReader.outputs:result>
+        float3 outputs:rgb
+    }
+
+
 ### UsdPrimvarReader_float2のパラメータ
 
+    def Shader "stReader"
+    {
+        uniform token info:id = "UsdPrimvarReader_float2"
+        token inputs:varname.connect = </hello/material_0.inputs:frame:stPrimvarName>
+        float2 outputs:result
+    }
 
 まだ途中、、、     
