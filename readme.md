@@ -93,7 +93,7 @@ https://graphics.pixar.com/usd/docs/USD-Toolset.html
 ### 概要
 
 * [USDファイルの構成](./doc/usd_files_desc.md)    
-* [シーン単位](./doc/unit.md)    
+* [シーン単位](./doc/usd_unit.md)    
 * [座標系](./doc/scene_axis.md)    
 * [USDの内部構成(usda)](./doc/usd_usda.md)    
 * [usdaでのコメントの記述](./doc/usd_usda_comment.md)    
