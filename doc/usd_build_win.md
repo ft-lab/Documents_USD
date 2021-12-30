@@ -142,12 +142,12 @@ set PATH=C:\Python39;C:\Python39\Scripts;%PATH%
 ```
 
 「C:\Python39」がPythonのインストールフォルダです。      
-「python –version」としてPythonのバージョンを確認するようにしてください。       
+「python --version」としてPythonのバージョンを確認するようにしてください。       
 
 ### パスを通したのに、Pythonのバージョンが3.9ではない場合
 
 コマンドプロンプト上で、カレントパスをcdで変えて別のフォルダに移動したとき、
-「python –version」を実行すると異なるバージョンが表示される場合があります。    
+「python --version」を実行すると異なるバージョンが表示される場合があります。    
 Windows 10のバージョンアップの影響か、OSの環境変数のパスの優先順が変更されてしまう場合があるようです。      
 これはWindowsに同梱のPythonが先に検索されるのが原因として考えられそうです。      
 「where python」でどのpythonが呼び出されてるか確認するようにします。      
