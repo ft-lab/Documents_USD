@@ -10,12 +10,27 @@ USDのビルドについては「[USDのビルド (Win)](../doc/usd_build_win.md
 Pythonを使用したビルドを行った場合、実行前に以下のパス指定が必要になります。    
 コマンドラインのUSDツールセット([usdcat](../doc/toolset/usd_toolset_usdcat.md) / [usdview](../doc/toolset/usd_toolset_usdview.md) / [usdzip](../doc/toolset/usd_toolset_usdzip.md) など)の機能を実行する場合は、このビルドを使用する必要があります。    
 
-    set PATH=C:\Python27;C:\Python27\Scripts;%PATH%    
-    set PYTHONPATH=C:\WinApp\USD\builds\lib\python  
-    set PATH=C:\WinApp\USD\builds\bin;%PATH%;    
-    set PATH=C:\WinApp\USD\builds\lib;%PATH%;  
+### Python 2.7の場合
 
+```
+set PATH=C:\Python27;C:\Python27\Scripts;%PATH%    
+set PYTHONPATH=C:\WinApp\USD\builds\lib\python  
+set PATH=C:\WinApp\USD\builds\bin;%PATH%;    
+set PATH=C:\WinApp\USD\builds\lib;%PATH%;  
+```
 Python27を「C:\Python27」をインストール、USDのビルドを「C:\WinApp\USD\builds」に格納したとした記載になります。    
+
+### Python 3.9の場合
+
+```
+set PATH=C:\Python39;C:\Python39\Scripts;%PATH%
+set PYTHONPATH=C:\WinApp\USD\builds\lib\python;C:\Python39\Lib\site-packages    
+set PATH=C:\WinApp\USD\builds\bin;%PATH%;    
+set PATH=C:\WinApp\USD\builds\lib;%PATH%;    
+```
+
+Python39を「C:\Python39」をインストール、USDのビルドを「C:\WinApp\USD\builds」に格納したとした記載になります。    
+Python39の場合は「PYTHONPATH」で「C:\Python39\Lib\site-packages」を追加する必要があります。     
 
 ## Pythonを使用しないビルドを行った場合
 
