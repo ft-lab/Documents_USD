@@ -2,15 +2,15 @@
 
 USDファイル(usda/usdc)、テクスチャファイル(png/jpg)、Audioファイル(M4A, MP3, WAV)をまとめて    
 1つのusdz形式にします。    
-このusdz形式をiOS13/iPadOS13のAR Quick Lookに持って行くと    
+このusdz形式をiOS13/iPadOS13以降のAR Quick Lookに持って行くと    
 ARで形状を見ることができるようになります。    
 
 usdzは実態はzip形式ですが、無圧縮でファイルはAlignmentされています。    
 
 ## 参考サイト
 
-* https://graphics.pixar.com/usd/docs/USD-Toolset.html#USDToolset-usdzip    
-* https://graphics.pixar.com/usd/docs/Usdz-File-Format-Specification.html
+* https://graphics.pixar.com/usd/release/toolset.html#USDToolset-usdzip    
+* https://graphics.pixar.com/usd/release/wp_usdz.html
 
 ## 指定のシーンをusdzに変換
 
