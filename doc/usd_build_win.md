@@ -268,6 +268,37 @@ Python/CMake/NASMのそれぞれのパスは、インストールしたときの
 このUSDにアクセスするdllがPythonに依存することになります。      
 この場合は、バージョンを合わせたPythonを環境にあらかじめインストールしておかないと動作しません。     
 
+### 古いUSD : "ERROR: 'cp932' codec can't decode byte 0xef"が出る場合
+
+2022/08追記。      
+USD 20.08 + Python37時に確認しました。     
+"PNG"や"OpenEXR"あたりをビルドする際に、
+```
+ERROR: 'cp932' codec can't decode byte 0xef in position 1204: illegal multibyte sequence
+```
+のようなエラーが出ました。     
+
+この場合は、以下のようにpythonの後に「-X utf8」を追加するとうまくいくようでした。     
+これは、Python自体はUTF-8なのにシステムはcp932(ShiftJIS)となっているのが原因のようでした。     
+
+```
+python -X utf8 C:\WinApp\USD\build_scripts\build_usd.py --openimageio "C:\WinApp\USD\builds" 
+```
+
+### 古いUSD : TIFFが見つからなくてエラー
+
+2022/08追記。      
+USD 20.08など古いバージョンをビルドする際に、TIFFのファイルが見つからない、となる場合があります。     
+
+"build_scripts/build_usd.py"の
+```
+TIFF_URL = "https://gitlab.com/libtiff/libtiff/-/archive/Release-v4-0-7/libtiff-Release-v4-0-7.tar.gz"
+```
+は、
+```
+TIFF_URL = "https://download.osgeo.org/libtiff/tiff-4.0.7.zip"
+```
+といった存在するURLに置き換えるようにします。     
 
 ### 動作確認
 
